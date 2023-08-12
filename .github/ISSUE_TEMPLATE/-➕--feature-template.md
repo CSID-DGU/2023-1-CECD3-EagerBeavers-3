@@ -2,7 +2,7 @@
 name: "[➕] Feature Template"
 about: 기능 추가시 작성하는 issue template 입니다.
 title: "[➕Feat ]"
-labels: ''
+labels: "➕ Feat"
 assignees: ''
 
 ---
