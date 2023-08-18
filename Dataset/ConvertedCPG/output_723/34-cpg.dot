@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.assignmentPlus" {  
+"530" [label = <(METHOD,&lt;operator&gt;.assignmentPlus)> ]
+"531" [label = <(PARAM,p1)> ]
+"532" [label = <(PARAM,p2)> ]
+"533" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"534" [label = <(METHOD_RETURN,ANY)> ]
+  "530" -> "531"  [ label = "AST: "] 
+  "530" -> "533"  [ label = "AST: "] 
+  "530" -> "532"  [ label = "AST: "] 
+  "530" -> "534"  [ label = "AST: "] 
+  "530" -> "534"  [ label = "CFG: "] 
+  "531" -> "534"  [ label = "DDG: p1"] 
+  "532" -> "534"  [ label = "DDG: p2"] 
+  "530" -> "531"  [ label = "DDG: "] 
+  "530" -> "532"  [ label = "DDG: "] 
+}

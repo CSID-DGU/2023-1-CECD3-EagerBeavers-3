@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.postIncrement" {  
+"560" [label = <(METHOD,&lt;operator&gt;.postIncrement)> ]
+"561" [label = <(PARAM,p1)> ]
+"562" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"563" [label = <(METHOD_RETURN,ANY)> ]
+  "560" -> "561"  [ label = "AST: "] 
+  "560" -> "562"  [ label = "AST: "] 
+  "560" -> "563"  [ label = "AST: "] 
+  "560" -> "563"  [ label = "CFG: "] 
+  "561" -> "563"  [ label = "DDG: p1"] 
+  "560" -> "561"  [ label = "DDG: "] 
+}

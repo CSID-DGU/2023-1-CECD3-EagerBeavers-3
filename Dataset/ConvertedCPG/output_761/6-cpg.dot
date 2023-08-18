@@ -1,0 +1,16 @@
+digraph "solve" {  
+"90" [label = <(METHOD,solve)> ]
+"91" [label = <(PARAM,p0)> ]
+"92" [label = <(PARAM,p1)> ]
+"93" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"94" [label = <(METHOD_RETURN,ANY)> ]
+  "90" -> "91"  [ label = "AST: "] 
+  "90" -> "92"  [ label = "AST: "] 
+  "90" -> "93"  [ label = "AST: "] 
+  "90" -> "94"  [ label = "AST: "] 
+  "90" -> "94"  [ label = "CFG: "] 
+  "91" -> "94"  [ label = "DDG: p0"] 
+  "92" -> "94"  [ label = "DDG: p1"] 
+  "90" -> "91"  [ label = "DDG: "] 
+  "90" -> "92"  [ label = "DDG: "] 
+}

@@ -1,0 +1,16 @@
+digraph "remove" {  
+"744" [label = <(METHOD,remove)> ]
+"745" [label = <(PARAM,p0)> ]
+"746" [label = <(PARAM,p1)> ]
+"747" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"748" [label = <(METHOD_RETURN,ANY)> ]
+  "744" -> "745"  [ label = "AST: "] 
+  "744" -> "746"  [ label = "AST: "] 
+  "744" -> "747"  [ label = "AST: "] 
+  "744" -> "748"  [ label = "AST: "] 
+  "744" -> "748"  [ label = "CFG: "] 
+  "745" -> "748"  [ label = "DDG: p0"] 
+  "746" -> "748"  [ label = "DDG: p1"] 
+  "744" -> "745"  [ label = "DDG: "] 
+  "744" -> "746"  [ label = "DDG: "] 
+}

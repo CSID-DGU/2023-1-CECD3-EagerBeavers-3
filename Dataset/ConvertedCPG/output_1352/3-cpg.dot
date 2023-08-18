@@ -1,0 +1,8 @@
+digraph "&lt;operator&gt;.alloc" {  
+"1260" [label = <(METHOD,&lt;operator&gt;.alloc)> ]
+"1261" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"1262" [label = <(METHOD_RETURN,ANY)> ]
+  "1260" -> "1261"  [ label = "AST: "] 
+  "1260" -> "1262"  [ label = "AST: "] 
+  "1260" -> "1262"  [ label = "CFG: "] 
+}

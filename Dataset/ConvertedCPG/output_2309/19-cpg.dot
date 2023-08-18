@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.postDecrement" {  
+"420" [label = <(METHOD,&lt;operator&gt;.postDecrement)> ]
+"421" [label = <(PARAM,p1)> ]
+"422" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"423" [label = <(METHOD_RETURN,ANY)> ]
+  "420" -> "421"  [ label = "AST: "] 
+  "420" -> "422"  [ label = "AST: "] 
+  "420" -> "423"  [ label = "AST: "] 
+  "420" -> "423"  [ label = "CFG: "] 
+  "421" -> "423"  [ label = "DDG: p1"] 
+  "420" -> "421"  [ label = "DDG: "] 
+}

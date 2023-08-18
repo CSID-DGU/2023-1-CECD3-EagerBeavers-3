@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.throw" {  
+"109" [label = <(METHOD,&lt;operator&gt;.throw)> ]
+"110" [label = <(PARAM,p1)> ]
+"111" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"112" [label = <(METHOD_RETURN,ANY)> ]
+  "109" -> "110"  [ label = "AST: "] 
+  "109" -> "111"  [ label = "AST: "] 
+  "109" -> "112"  [ label = "AST: "] 
+  "109" -> "112"  [ label = "CFG: "] 
+  "110" -> "112"  [ label = "DDG: p1"] 
+  "109" -> "110"  [ label = "DDG: "] 
+}

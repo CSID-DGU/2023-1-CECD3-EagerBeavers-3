@@ -1,0 +1,16 @@
+digraph "join" {  
+"114" [label = <(METHOD,join)> ]
+"115" [label = <(PARAM,p0)> ]
+"116" [label = <(PARAM,p1)> ]
+"117" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"118" [label = <(METHOD_RETURN,ANY)> ]
+  "114" -> "115"  [ label = "AST: "] 
+  "114" -> "116"  [ label = "AST: "] 
+  "114" -> "117"  [ label = "AST: "] 
+  "114" -> "118"  [ label = "AST: "] 
+  "114" -> "118"  [ label = "CFG: "] 
+  "115" -> "118"  [ label = "DDG: p0"] 
+  "116" -> "118"  [ label = "DDG: p1"] 
+  "114" -> "115"  [ label = "DDG: "] 
+  "114" -> "116"  [ label = "DDG: "] 
+}

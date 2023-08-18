@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.shiftLeft" {  
+"599" [label = <(METHOD,&lt;operator&gt;.shiftLeft)> ]
+"600" [label = <(PARAM,p1)> ]
+"601" [label = <(PARAM,p2)> ]
+"602" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"603" [label = <(METHOD_RETURN,ANY)> ]
+  "599" -> "600"  [ label = "AST: "] 
+  "599" -> "602"  [ label = "AST: "] 
+  "599" -> "601"  [ label = "AST: "] 
+  "599" -> "603"  [ label = "AST: "] 
+  "599" -> "603"  [ label = "CFG: "] 
+  "600" -> "603"  [ label = "DDG: p1"] 
+  "601" -> "603"  [ label = "DDG: p2"] 
+  "599" -> "600"  [ label = "DDG: "] 
+  "599" -> "601"  [ label = "DDG: "] 
+}

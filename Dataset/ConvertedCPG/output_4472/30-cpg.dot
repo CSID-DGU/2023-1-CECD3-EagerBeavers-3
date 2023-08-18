@@ -1,0 +1,16 @@
+digraph "hasNext" {  
+"844" [label = <(METHOD,hasNext)> ]
+"845" [label = <(PARAM,p0)> ]
+"846" [label = <(PARAM,p1)> ]
+"847" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"848" [label = <(METHOD_RETURN,ANY)> ]
+  "844" -> "845"  [ label = "AST: "] 
+  "844" -> "846"  [ label = "AST: "] 
+  "844" -> "847"  [ label = "AST: "] 
+  "844" -> "848"  [ label = "AST: "] 
+  "844" -> "848"  [ label = "CFG: "] 
+  "845" -> "848"  [ label = "DDG: p0"] 
+  "846" -> "848"  [ label = "DDG: p1"] 
+  "844" -> "845"  [ label = "DDG: "] 
+  "844" -> "846"  [ label = "DDG: "] 
+}

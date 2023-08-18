@@ -1,0 +1,16 @@
+digraph "posLeft" {  
+"247" [label = <(METHOD,posLeft)> ]
+"248" [label = <(PARAM,p0)> ]
+"249" [label = <(PARAM,p1)> ]
+"250" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"251" [label = <(METHOD_RETURN,ANY)> ]
+  "247" -> "248"  [ label = "AST: "] 
+  "247" -> "249"  [ label = "AST: "] 
+  "247" -> "250"  [ label = "AST: "] 
+  "247" -> "251"  [ label = "AST: "] 
+  "247" -> "251"  [ label = "CFG: "] 
+  "248" -> "251"  [ label = "DDG: p0"] 
+  "249" -> "251"  [ label = "DDG: p1"] 
+  "247" -> "248"  [ label = "DDG: "] 
+  "247" -> "249"  [ label = "DDG: "] 
+}

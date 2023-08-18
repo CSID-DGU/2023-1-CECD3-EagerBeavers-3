@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.assignment" {  
+"931" [label = <(METHOD,&lt;operator&gt;.assignment)> ]
+"932" [label = <(PARAM,p1)> ]
+"933" [label = <(PARAM,p2)> ]
+"934" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"935" [label = <(METHOD_RETURN,ANY)> ]
+  "931" -> "932"  [ label = "AST: "] 
+  "931" -> "934"  [ label = "AST: "] 
+  "931" -> "933"  [ label = "AST: "] 
+  "931" -> "935"  [ label = "AST: "] 
+  "931" -> "935"  [ label = "CFG: "] 
+  "932" -> "935"  [ label = "DDG: p1"] 
+  "933" -> "935"  [ label = "DDG: p2"] 
+  "931" -> "932"  [ label = "DDG: "] 
+  "931" -> "933"  [ label = "DDG: "] 
+}

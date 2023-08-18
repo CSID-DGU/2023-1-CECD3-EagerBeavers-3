@@ -1,0 +1,16 @@
+digraph "removeLast" {  
+"705" [label = <(METHOD,removeLast)> ]
+"706" [label = <(PARAM,p0)> ]
+"707" [label = <(PARAM,p1)> ]
+"708" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"709" [label = <(METHOD_RETURN,ANY)> ]
+  "705" -> "706"  [ label = "AST: "] 
+  "705" -> "707"  [ label = "AST: "] 
+  "705" -> "708"  [ label = "AST: "] 
+  "705" -> "709"  [ label = "AST: "] 
+  "705" -> "709"  [ label = "CFG: "] 
+  "706" -> "709"  [ label = "DDG: p0"] 
+  "707" -> "709"  [ label = "DDG: p1"] 
+  "705" -> "706"  [ label = "DDG: "] 
+  "705" -> "707"  [ label = "DDG: "] 
+}

@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.lessEqualsThan" {  
+"485" [label = <(METHOD,&lt;operator&gt;.lessEqualsThan)> ]
+"486" [label = <(PARAM,p1)> ]
+"487" [label = <(PARAM,p2)> ]
+"488" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"489" [label = <(METHOD_RETURN,ANY)> ]
+  "485" -> "486"  [ label = "AST: "] 
+  "485" -> "488"  [ label = "AST: "] 
+  "485" -> "487"  [ label = "AST: "] 
+  "485" -> "489"  [ label = "AST: "] 
+  "485" -> "489"  [ label = "CFG: "] 
+  "486" -> "489"  [ label = "DDG: p1"] 
+  "487" -> "489"  [ label = "DDG: p2"] 
+  "485" -> "486"  [ label = "DDG: "] 
+  "485" -> "487"  [ label = "DDG: "] 
+}

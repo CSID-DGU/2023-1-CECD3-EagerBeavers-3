@@ -1,0 +1,16 @@
+digraph "nextInt" {  
+"223" [label = <(METHOD,nextInt)> ]
+"224" [label = <(PARAM,p0)> ]
+"225" [label = <(PARAM,p1)> ]
+"226" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"227" [label = <(METHOD_RETURN,ANY)> ]
+  "223" -> "224"  [ label = "AST: "] 
+  "223" -> "225"  [ label = "AST: "] 
+  "223" -> "226"  [ label = "AST: "] 
+  "223" -> "227"  [ label = "AST: "] 
+  "223" -> "227"  [ label = "CFG: "] 
+  "224" -> "227"  [ label = "DDG: p0"] 
+  "225" -> "227"  [ label = "DDG: p1"] 
+  "223" -> "224"  [ label = "DDG: "] 
+  "223" -> "225"  [ label = "DDG: "] 
+}
