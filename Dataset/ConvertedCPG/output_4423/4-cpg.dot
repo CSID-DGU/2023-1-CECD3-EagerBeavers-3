@@ -1,0 +1,16 @@
+digraph "ni" {  
+"521" [label = <(METHOD,ni)> ]
+"522" [label = <(PARAM,p0)> ]
+"523" [label = <(PARAM,p1)> ]
+"524" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"525" [label = <(METHOD_RETURN,ANY)> ]
+  "521" -> "522"  [ label = "AST: "] 
+  "521" -> "523"  [ label = "AST: "] 
+  "521" -> "524"  [ label = "AST: "] 
+  "521" -> "525"  [ label = "AST: "] 
+  "521" -> "525"  [ label = "CFG: "] 
+  "522" -> "525"  [ label = "DDG: p0"] 
+  "523" -> "525"  [ label = "DDG: p1"] 
+  "521" -> "522"  [ label = "DDG: "] 
+  "521" -> "523"  [ label = "DDG: "] 
+}

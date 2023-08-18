@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.division" {  
+"308" [label = <(METHOD,&lt;operator&gt;.division)> ]
+"309" [label = <(PARAM,p1)> ]
+"310" [label = <(PARAM,p2)> ]
+"311" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"312" [label = <(METHOD_RETURN,ANY)> ]
+  "308" -> "309"  [ label = "AST: "] 
+  "308" -> "311"  [ label = "AST: "] 
+  "308" -> "310"  [ label = "AST: "] 
+  "308" -> "312"  [ label = "AST: "] 
+  "308" -> "312"  [ label = "CFG: "] 
+  "309" -> "312"  [ label = "DDG: p1"] 
+  "310" -> "312"  [ label = "DDG: p2"] 
+  "308" -> "309"  [ label = "DDG: "] 
+  "308" -> "310"  [ label = "DDG: "] 
+}

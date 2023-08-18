@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.xor" {  
+"400" [label = <(METHOD,&lt;operator&gt;.xor)> ]
+"401" [label = <(PARAM,p1)> ]
+"402" [label = <(PARAM,p2)> ]
+"403" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"404" [label = <(METHOD_RETURN,ANY)> ]
+  "400" -> "401"  [ label = "AST: "] 
+  "400" -> "403"  [ label = "AST: "] 
+  "400" -> "402"  [ label = "AST: "] 
+  "400" -> "404"  [ label = "AST: "] 
+  "400" -> "404"  [ label = "CFG: "] 
+  "401" -> "404"  [ label = "DDG: p1"] 
+  "402" -> "404"  [ label = "DDG: p2"] 
+  "400" -> "401"  [ label = "DDG: "] 
+  "400" -> "402"  [ label = "DDG: "] 
+}

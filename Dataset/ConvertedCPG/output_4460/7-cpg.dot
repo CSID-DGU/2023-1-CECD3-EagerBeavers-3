@@ -1,0 +1,16 @@
+digraph "readLine" {  
+"568" [label = <(METHOD,readLine)> ]
+"569" [label = <(PARAM,p0)> ]
+"570" [label = <(PARAM,p1)> ]
+"571" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"572" [label = <(METHOD_RETURN,ANY)> ]
+  "568" -> "569"  [ label = "AST: "] 
+  "568" -> "570"  [ label = "AST: "] 
+  "568" -> "571"  [ label = "AST: "] 
+  "568" -> "572"  [ label = "AST: "] 
+  "568" -> "572"  [ label = "CFG: "] 
+  "569" -> "572"  [ label = "DDG: p0"] 
+  "570" -> "572"  [ label = "DDG: p1"] 
+  "568" -> "569"  [ label = "DDG: "] 
+  "568" -> "570"  [ label = "DDG: "] 
+}

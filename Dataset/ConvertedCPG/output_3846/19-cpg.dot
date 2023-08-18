@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.subtraction" {  
+"250" [label = <(METHOD,&lt;operator&gt;.subtraction)> ]
+"251" [label = <(PARAM,p1)> ]
+"252" [label = <(PARAM,p2)> ]
+"253" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"254" [label = <(METHOD_RETURN,ANY)> ]
+  "250" -> "251"  [ label = "AST: "] 
+  "250" -> "253"  [ label = "AST: "] 
+  "250" -> "252"  [ label = "AST: "] 
+  "250" -> "254"  [ label = "AST: "] 
+  "250" -> "254"  [ label = "CFG: "] 
+  "251" -> "254"  [ label = "DDG: p1"] 
+  "252" -> "254"  [ label = "DDG: p2"] 
+  "250" -> "251"  [ label = "DDG: "] 
+  "250" -> "252"  [ label = "DDG: "] 
+}

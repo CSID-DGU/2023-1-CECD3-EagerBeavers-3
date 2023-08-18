@@ -1,0 +1,16 @@
+digraph "size" {  
+"392" [label = <(METHOD,size)> ]
+"393" [label = <(PARAM,p0)> ]
+"394" [label = <(PARAM,p1)> ]
+"395" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"396" [label = <(METHOD_RETURN,ANY)> ]
+  "392" -> "393"  [ label = "AST: "] 
+  "392" -> "394"  [ label = "AST: "] 
+  "392" -> "395"  [ label = "AST: "] 
+  "392" -> "396"  [ label = "AST: "] 
+  "392" -> "396"  [ label = "CFG: "] 
+  "393" -> "396"  [ label = "DDG: p0"] 
+  "394" -> "396"  [ label = "DDG: p1"] 
+  "392" -> "393"  [ label = "DDG: "] 
+  "392" -> "394"  [ label = "DDG: "] 
+}

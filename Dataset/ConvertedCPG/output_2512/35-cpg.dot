@@ -1,0 +1,16 @@
+digraph "getValue" {  
+"555" [label = <(METHOD,getValue)> ]
+"556" [label = <(PARAM,p0)> ]
+"557" [label = <(PARAM,p1)> ]
+"558" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"559" [label = <(METHOD_RETURN,ANY)> ]
+  "555" -> "556"  [ label = "AST: "] 
+  "555" -> "557"  [ label = "AST: "] 
+  "555" -> "558"  [ label = "AST: "] 
+  "555" -> "559"  [ label = "AST: "] 
+  "555" -> "559"  [ label = "CFG: "] 
+  "556" -> "559"  [ label = "DDG: p0"] 
+  "557" -> "559"  [ label = "DDG: p1"] 
+  "555" -> "556"  [ label = "DDG: "] 
+  "555" -> "557"  [ label = "DDG: "] 
+}

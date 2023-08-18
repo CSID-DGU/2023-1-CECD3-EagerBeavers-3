@@ -1,0 +1,16 @@
+digraph "abs" {  
+"258" [label = <(METHOD,abs)> ]
+"259" [label = <(PARAM,p1)> ]
+"260" [label = <(PARAM,p2)> ]
+"261" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"262" [label = <(METHOD_RETURN,ANY)> ]
+  "258" -> "259"  [ label = "AST: "] 
+  "258" -> "261"  [ label = "AST: "] 
+  "258" -> "260"  [ label = "AST: "] 
+  "258" -> "262"  [ label = "AST: "] 
+  "258" -> "262"  [ label = "CFG: "] 
+  "259" -> "262"  [ label = "DDG: p1"] 
+  "260" -> "262"  [ label = "DDG: p2"] 
+  "258" -> "259"  [ label = "DDG: "] 
+  "258" -> "260"  [ label = "DDG: "] 
+}

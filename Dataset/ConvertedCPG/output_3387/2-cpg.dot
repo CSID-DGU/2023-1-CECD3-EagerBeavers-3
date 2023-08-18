@@ -1,0 +1,16 @@
+digraph "solve" {  
+"56" [label = <(METHOD,solve)> ]
+"57" [label = <(PARAM,p0)> ]
+"58" [label = <(PARAM,p1)> ]
+"59" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"60" [label = <(METHOD_RETURN,ANY)> ]
+  "56" -> "57"  [ label = "AST: "] 
+  "56" -> "58"  [ label = "AST: "] 
+  "56" -> "59"  [ label = "AST: "] 
+  "56" -> "60"  [ label = "AST: "] 
+  "56" -> "60"  [ label = "CFG: "] 
+  "57" -> "60"  [ label = "DDG: p0"] 
+  "58" -> "60"  [ label = "DDG: p1"] 
+  "56" -> "57"  [ label = "DDG: "] 
+  "56" -> "58"  [ label = "DDG: "] 
+}

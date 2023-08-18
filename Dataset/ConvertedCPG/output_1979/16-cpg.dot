@@ -1,0 +1,16 @@
+digraph "println" {  
+"225" [label = <(METHOD,println)> ]
+"226" [label = <(PARAM,p0)> ]
+"227" [label = <(PARAM,p1)> ]
+"228" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"229" [label = <(METHOD_RETURN,ANY)> ]
+  "225" -> "226"  [ label = "AST: "] 
+  "225" -> "227"  [ label = "AST: "] 
+  "225" -> "228"  [ label = "AST: "] 
+  "225" -> "229"  [ label = "AST: "] 
+  "225" -> "229"  [ label = "CFG: "] 
+  "226" -> "229"  [ label = "DDG: p0"] 
+  "227" -> "229"  [ label = "DDG: p1"] 
+  "225" -> "226"  [ label = "DDG: "] 
+  "225" -> "227"  [ label = "DDG: "] 
+}

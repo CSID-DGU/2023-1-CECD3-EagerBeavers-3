@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.greaterThan" {  
+"1056" [label = <(METHOD,&lt;operator&gt;.greaterThan)> ]
+"1057" [label = <(PARAM,p1)> ]
+"1058" [label = <(PARAM,p2)> ]
+"1059" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"1060" [label = <(METHOD_RETURN,ANY)> ]
+  "1056" -> "1057"  [ label = "AST: "] 
+  "1056" -> "1059"  [ label = "AST: "] 
+  "1056" -> "1058"  [ label = "AST: "] 
+  "1056" -> "1060"  [ label = "AST: "] 
+  "1056" -> "1060"  [ label = "CFG: "] 
+  "1057" -> "1060"  [ label = "DDG: p1"] 
+  "1058" -> "1060"  [ label = "DDG: p2"] 
+  "1056" -> "1057"  [ label = "DDG: "] 
+  "1056" -> "1058"  [ label = "DDG: "] 
+}

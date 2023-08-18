@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.modulo" {  
+"316" [label = <(METHOD,&lt;operator&gt;.modulo)> ]
+"317" [label = <(PARAM,p1)> ]
+"318" [label = <(PARAM,p2)> ]
+"319" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"320" [label = <(METHOD_RETURN,ANY)> ]
+  "316" -> "317"  [ label = "AST: "] 
+  "316" -> "319"  [ label = "AST: "] 
+  "316" -> "318"  [ label = "AST: "] 
+  "316" -> "320"  [ label = "AST: "] 
+  "316" -> "320"  [ label = "CFG: "] 
+  "317" -> "320"  [ label = "DDG: p1"] 
+  "318" -> "320"  [ label = "DDG: p2"] 
+  "316" -> "317"  [ label = "DDG: "] 
+  "316" -> "318"  [ label = "DDG: "] 
+}

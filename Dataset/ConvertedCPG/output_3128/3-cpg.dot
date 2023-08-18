@@ -1,0 +1,16 @@
+digraph "nextDouble" {  
+"333" [label = <(METHOD,nextDouble)> ]
+"334" [label = <(PARAM,p0)> ]
+"335" [label = <(PARAM,p1)> ]
+"336" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"337" [label = <(METHOD_RETURN,ANY)> ]
+  "333" -> "334"  [ label = "AST: "] 
+  "333" -> "335"  [ label = "AST: "] 
+  "333" -> "336"  [ label = "AST: "] 
+  "333" -> "337"  [ label = "AST: "] 
+  "333" -> "337"  [ label = "CFG: "] 
+  "334" -> "337"  [ label = "DDG: p0"] 
+  "335" -> "337"  [ label = "DDG: p1"] 
+  "333" -> "334"  [ label = "DDG: "] 
+  "333" -> "335"  [ label = "DDG: "] 
+}

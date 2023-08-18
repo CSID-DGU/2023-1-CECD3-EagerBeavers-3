@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.xor" {  
+"673" [label = <(METHOD,&lt;operator&gt;.xor)> ]
+"674" [label = <(PARAM,p1)> ]
+"675" [label = <(PARAM,p2)> ]
+"676" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"677" [label = <(METHOD_RETURN,ANY)> ]
+  "673" -> "674"  [ label = "AST: "] 
+  "673" -> "676"  [ label = "AST: "] 
+  "673" -> "675"  [ label = "AST: "] 
+  "673" -> "677"  [ label = "AST: "] 
+  "673" -> "677"  [ label = "CFG: "] 
+  "674" -> "677"  [ label = "DDG: p1"] 
+  "675" -> "677"  [ label = "DDG: p2"] 
+  "673" -> "674"  [ label = "DDG: "] 
+  "673" -> "675"  [ label = "DDG: "] 
+}

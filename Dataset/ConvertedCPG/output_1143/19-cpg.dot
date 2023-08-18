@@ -1,0 +1,16 @@
+digraph "flush" {  
+"401" [label = <(METHOD,flush)> ]
+"402" [label = <(PARAM,p0)> ]
+"403" [label = <(PARAM,p1)> ]
+"404" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"405" [label = <(METHOD_RETURN,ANY)> ]
+  "401" -> "402"  [ label = "AST: "] 
+  "401" -> "403"  [ label = "AST: "] 
+  "401" -> "404"  [ label = "AST: "] 
+  "401" -> "405"  [ label = "AST: "] 
+  "401" -> "405"  [ label = "CFG: "] 
+  "402" -> "405"  [ label = "DDG: p0"] 
+  "403" -> "405"  [ label = "DDG: p1"] 
+  "401" -> "402"  [ label = "DDG: "] 
+  "401" -> "403"  [ label = "DDG: "] 
+}

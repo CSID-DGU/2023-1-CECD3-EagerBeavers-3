@@ -1,0 +1,16 @@
+digraph "flush" {  
+"894" [label = <(METHOD,flush)> ]
+"895" [label = <(PARAM,p0)> ]
+"896" [label = <(PARAM,p1)> ]
+"897" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"898" [label = <(METHOD_RETURN,ANY)> ]
+  "894" -> "895"  [ label = "AST: "] 
+  "894" -> "896"  [ label = "AST: "] 
+  "894" -> "897"  [ label = "AST: "] 
+  "894" -> "898"  [ label = "AST: "] 
+  "894" -> "898"  [ label = "CFG: "] 
+  "895" -> "898"  [ label = "DDG: p0"] 
+  "896" -> "898"  [ label = "DDG: p1"] 
+  "894" -> "895"  [ label = "DDG: "] 
+  "894" -> "896"  [ label = "DDG: "] 
+}

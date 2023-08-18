@@ -1,0 +1,16 @@
+digraph "&lt;init&gt;" {  
+"401" [label = <(METHOD,&lt;init&gt;)> ]
+"402" [label = <(PARAM,this)> ]
+"403" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"404" [label = <(MODIFIER,CONSTRUCTOR)> ]
+"405" [label = <(MODIFIER,PUBLIC)> ]
+"406" [label = <(METHOD_RETURN,void)> ]
+  "401" -> "402"  [ label = "AST: "] 
+  "401" -> "403"  [ label = "AST: "] 
+  "401" -> "404"  [ label = "AST: "] 
+  "401" -> "405"  [ label = "AST: "] 
+  "401" -> "406"  [ label = "AST: "] 
+  "401" -> "406"  [ label = "CFG: "] 
+  "402" -> "406"  [ label = "DDG: this"] 
+  "401" -> "402"  [ label = "DDG: "] 
+}

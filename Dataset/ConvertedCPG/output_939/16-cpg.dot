@@ -1,0 +1,16 @@
+digraph "close" {  
+"241" [label = <(METHOD,close)> ]
+"242" [label = <(PARAM,p0)> ]
+"243" [label = <(PARAM,p1)> ]
+"244" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"245" [label = <(METHOD_RETURN,ANY)> ]
+  "241" -> "242"  [ label = "AST: "] 
+  "241" -> "243"  [ label = "AST: "] 
+  "241" -> "244"  [ label = "AST: "] 
+  "241" -> "245"  [ label = "AST: "] 
+  "241" -> "245"  [ label = "CFG: "] 
+  "242" -> "245"  [ label = "DDG: p0"] 
+  "243" -> "245"  [ label = "DDG: p1"] 
+  "241" -> "242"  [ label = "DDG: "] 
+  "241" -> "243"  [ label = "DDG: "] 
+}

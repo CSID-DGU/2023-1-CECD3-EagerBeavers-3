@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.assignmentMultiplication" {  
+"255" [label = <(METHOD,&lt;operator&gt;.assignmentMultiplication)> ]
+"256" [label = <(PARAM,p1)> ]
+"257" [label = <(PARAM,p2)> ]
+"258" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"259" [label = <(METHOD_RETURN,ANY)> ]
+  "255" -> "256"  [ label = "AST: "] 
+  "255" -> "258"  [ label = "AST: "] 
+  "255" -> "257"  [ label = "AST: "] 
+  "255" -> "259"  [ label = "AST: "] 
+  "255" -> "259"  [ label = "CFG: "] 
+  "256" -> "259"  [ label = "DDG: p1"] 
+  "257" -> "259"  [ label = "DDG: p2"] 
+  "255" -> "256"  [ label = "DDG: "] 
+  "255" -> "257"  [ label = "DDG: "] 
+}

@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.indexAccess" {  
+"328" [label = <(METHOD,&lt;operator&gt;.indexAccess)> ]
+"329" [label = <(PARAM,p1)> ]
+"330" [label = <(PARAM,p2)> ]
+"331" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"332" [label = <(METHOD_RETURN,ANY)> ]
+  "328" -> "329"  [ label = "AST: "] 
+  "328" -> "331"  [ label = "AST: "] 
+  "328" -> "330"  [ label = "AST: "] 
+  "328" -> "332"  [ label = "AST: "] 
+  "328" -> "332"  [ label = "CFG: "] 
+  "329" -> "332"  [ label = "DDG: p1"] 
+  "330" -> "332"  [ label = "DDG: p2"] 
+  "328" -> "329"  [ label = "DDG: "] 
+  "328" -> "330"  [ label = "DDG: "] 
+}

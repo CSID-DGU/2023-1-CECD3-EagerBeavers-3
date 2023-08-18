@@ -1,0 +1,16 @@
+digraph "entrySet" {  
+"501" [label = <(METHOD,entrySet)> ]
+"502" [label = <(PARAM,p0)> ]
+"503" [label = <(PARAM,p1)> ]
+"504" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"505" [label = <(METHOD_RETURN,ANY)> ]
+  "501" -> "502"  [ label = "AST: "] 
+  "501" -> "503"  [ label = "AST: "] 
+  "501" -> "504"  [ label = "AST: "] 
+  "501" -> "505"  [ label = "AST: "] 
+  "501" -> "505"  [ label = "CFG: "] 
+  "502" -> "505"  [ label = "DDG: p0"] 
+  "503" -> "505"  [ label = "DDG: p1"] 
+  "501" -> "502"  [ label = "DDG: "] 
+  "501" -> "503"  [ label = "DDG: "] 
+}

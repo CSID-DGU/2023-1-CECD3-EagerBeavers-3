@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.or" {  
+"854" [label = <(METHOD,&lt;operator&gt;.or)> ]
+"855" [label = <(PARAM,p1)> ]
+"856" [label = <(PARAM,p2)> ]
+"857" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"858" [label = <(METHOD_RETURN,ANY)> ]
+  "854" -> "855"  [ label = "AST: "] 
+  "854" -> "857"  [ label = "AST: "] 
+  "854" -> "856"  [ label = "AST: "] 
+  "854" -> "858"  [ label = "AST: "] 
+  "854" -> "858"  [ label = "CFG: "] 
+  "855" -> "858"  [ label = "DDG: p1"] 
+  "856" -> "858"  [ label = "DDG: p2"] 
+  "854" -> "855"  [ label = "DDG: "] 
+  "854" -> "856"  [ label = "DDG: "] 
+}

@@ -1,0 +1,16 @@
+digraph "&lt;init&gt;" {  
+"514" [label = <(METHOD,&lt;init&gt;)> ]
+"515" [label = <(PARAM,this)> ]
+"516" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"517" [label = <(MODIFIER,CONSTRUCTOR)> ]
+"518" [label = <(MODIFIER,PUBLIC)> ]
+"519" [label = <(METHOD_RETURN,void)> ]
+  "514" -> "515"  [ label = "AST: "] 
+  "514" -> "516"  [ label = "AST: "] 
+  "514" -> "517"  [ label = "AST: "] 
+  "514" -> "518"  [ label = "AST: "] 
+  "514" -> "519"  [ label = "AST: "] 
+  "514" -> "519"  [ label = "CFG: "] 
+  "515" -> "519"  [ label = "DDG: this"] 
+  "514" -> "515"  [ label = "DDG: "] 
+}

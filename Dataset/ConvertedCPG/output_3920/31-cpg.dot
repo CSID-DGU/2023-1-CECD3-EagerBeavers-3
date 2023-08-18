@@ -1,0 +1,16 @@
+digraph "iterator" {  
+"769" [label = <(METHOD,iterator)> ]
+"770" [label = <(PARAM,p0)> ]
+"771" [label = <(PARAM,p1)> ]
+"772" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"773" [label = <(METHOD_RETURN,ANY)> ]
+  "769" -> "770"  [ label = "AST: "] 
+  "769" -> "771"  [ label = "AST: "] 
+  "769" -> "772"  [ label = "AST: "] 
+  "769" -> "773"  [ label = "AST: "] 
+  "769" -> "773"  [ label = "CFG: "] 
+  "770" -> "773"  [ label = "DDG: p0"] 
+  "771" -> "773"  [ label = "DDG: p1"] 
+  "769" -> "770"  [ label = "DDG: "] 
+  "769" -> "771"  [ label = "DDG: "] 
+}

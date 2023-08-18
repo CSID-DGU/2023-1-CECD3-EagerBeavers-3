@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.addition" {  
+"122" [label = <(METHOD,&lt;operator&gt;.addition)> ]
+"123" [label = <(PARAM,p1)> ]
+"124" [label = <(PARAM,p2)> ]
+"125" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"126" [label = <(METHOD_RETURN,ANY)> ]
+  "122" -> "123"  [ label = "AST: "] 
+  "122" -> "125"  [ label = "AST: "] 
+  "122" -> "124"  [ label = "AST: "] 
+  "122" -> "126"  [ label = "AST: "] 
+  "122" -> "126"  [ label = "CFG: "] 
+  "123" -> "126"  [ label = "DDG: p1"] 
+  "124" -> "126"  [ label = "DDG: p2"] 
+  "122" -> "123"  [ label = "DDG: "] 
+  "122" -> "124"  [ label = "DDG: "] 
+}

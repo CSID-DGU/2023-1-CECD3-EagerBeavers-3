@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.minus" {  
+"567" [label = <(METHOD,&lt;operator&gt;.minus)> ]
+"568" [label = <(PARAM,p1)> ]
+"569" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"570" [label = <(METHOD_RETURN,ANY)> ]
+  "567" -> "568"  [ label = "AST: "] 
+  "567" -> "569"  [ label = "AST: "] 
+  "567" -> "570"  [ label = "AST: "] 
+  "567" -> "570"  [ label = "CFG: "] 
+  "568" -> "570"  [ label = "DDG: p1"] 
+  "567" -> "568"  [ label = "DDG: "] 
+}

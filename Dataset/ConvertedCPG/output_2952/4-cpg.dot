@@ -1,0 +1,16 @@
+digraph "nextLong" {  
+"76" [label = <(METHOD,nextLong)> ]
+"77" [label = <(PARAM,p0)> ]
+"78" [label = <(PARAM,p1)> ]
+"79" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"80" [label = <(METHOD_RETURN,ANY)> ]
+  "76" -> "77"  [ label = "AST: "] 
+  "76" -> "78"  [ label = "AST: "] 
+  "76" -> "79"  [ label = "AST: "] 
+  "76" -> "80"  [ label = "AST: "] 
+  "76" -> "80"  [ label = "CFG: "] 
+  "77" -> "80"  [ label = "DDG: p0"] 
+  "78" -> "80"  [ label = "DDG: p1"] 
+  "76" -> "77"  [ label = "DDG: "] 
+  "76" -> "78"  [ label = "DDG: "] 
+}

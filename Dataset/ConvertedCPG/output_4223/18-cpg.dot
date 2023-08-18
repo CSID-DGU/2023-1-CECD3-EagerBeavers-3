@@ -1,0 +1,16 @@
+digraph "clone" {  
+"364" [label = <(METHOD,clone)> ]
+"365" [label = <(PARAM,p0)> ]
+"366" [label = <(PARAM,p1)> ]
+"367" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"368" [label = <(METHOD_RETURN,ANY)> ]
+  "364" -> "365"  [ label = "AST: "] 
+  "364" -> "366"  [ label = "AST: "] 
+  "364" -> "367"  [ label = "AST: "] 
+  "364" -> "368"  [ label = "AST: "] 
+  "364" -> "368"  [ label = "CFG: "] 
+  "365" -> "368"  [ label = "DDG: p0"] 
+  "366" -> "368"  [ label = "DDG: p1"] 
+  "364" -> "365"  [ label = "DDG: "] 
+  "364" -> "366"  [ label = "DDG: "] 
+}

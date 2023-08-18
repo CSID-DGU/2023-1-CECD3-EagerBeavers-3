@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.alloc" {  
+"190" [label = <(METHOD,&lt;operator&gt;.alloc)> ]
+"191" [label = <(PARAM,p1)> ]
+"192" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"193" [label = <(METHOD_RETURN,ANY)> ]
+  "190" -> "191"  [ label = "AST: "] 
+  "190" -> "192"  [ label = "AST: "] 
+  "190" -> "193"  [ label = "AST: "] 
+  "190" -> "193"  [ label = "CFG: "] 
+  "191" -> "193"  [ label = "DDG: p1"] 
+  "190" -> "191"  [ label = "DDG: "] 
+}
