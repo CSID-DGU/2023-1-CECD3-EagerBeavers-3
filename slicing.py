@@ -18,19 +18,19 @@ def sliceCode(code):
     lines = code.split("\n")
     start = 0
     count = 0
+    braket = 0
     for line in lines:
         if "public static void main" in line :
             start = 1
-            sliced +=(line+"\n")
         if start ==1 :
-            if count>0 :
-                sliced+=(line+"\n")  
+            sliced+=(line+"\n") 
             if "{" in line :
+                braket = 1
                 count+=1
             if "}" in line :
                 count -=1
-                if count==0 :
-                    start=0  
+            if count==0 and braket==1 :
+                break
     return sliced
 
 # main
@@ -46,3 +46,15 @@ with open("result.jsonl","w",encoding="utf-8") as wf:
         data["complexity"] = label_list[i]
         json.dump(data, wf, ensure_ascii=False)
         wf.write("\n")
+
+
+for i in range(len(sliced_list)) : 
+    try :
+        with open("datas/data"+str(i)+".java","w") as file : 
+            file.write("public class Main{") 
+            file.write(sliced_list[i])
+            print(str(i)+"번째 java 파일 생성")
+            file.write("}")
+    except :
+        continue
+
