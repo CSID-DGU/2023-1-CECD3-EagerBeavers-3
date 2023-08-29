@@ -12,10 +12,10 @@ nn_list = []
 i = 1
 with jsonlines.open("data.jsonl") as f:
     for line in f :
-        # data_list.append(line["src"])
-        # label_list.append(line["complexity"])
-        print(line["complexity"]+str(i))
-        i+=1
+        data_list.append(line["src"])
+        label_list.append(line["complexity"])
+        # print(line["complexity"]+str(i))
+        # i+=1
 
 
 
