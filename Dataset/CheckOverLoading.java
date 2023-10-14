@@ -10,6 +10,7 @@ public class CheckOverLoading {
 
     private static final String MAIN_PATTERN = "public static void main(String[] args)";
     private static final String METHOD_PATTERN = "(\\s*(public|private|protected)?\\s+)?(static\\s+)?\\w+\\s+\\w+\\s*\\(.*\\)\\s*\\{?"; //public void 메서드명 ()
+    private static final String METHOD_PATTERN_GENERIC = "(\\s*(public|private|protected)?\\s+)?(static\\s+)?<\\w+>\\s+void\\s+\\w+\\(.*\\)\\s*\\{?";
 
     public static boolean isOverLoading(String path) throws IOException {
         List<String> methodNames = new ArrayList<>();
@@ -19,7 +20,7 @@ public class CheckOverLoading {
                 continue;
             }
 
-            if (line.matches(METHOD_PATTERN)) {
+            if (line.matches(METHOD_PATTERN) || line.matches(METHOD_PATTERN_GENERIC)) {
                 int bracketIndex = line.indexOf("(");
                 int methodIndex = 0;
                 for (int i = bracketIndex; i > 0; i--) {
