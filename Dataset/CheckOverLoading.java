@@ -2,11 +2,40 @@ package org.example;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class CheckOverLoading {
+
+    public static void main(String[] args) {
+        String directoryPath = "/Users/gilga-eun/Desktop/test";
+        List<String> overLoadingFiles = new ArrayList<>();
+        try (Stream<Path> paths = Files.walk(Path.of(directoryPath))) {
+            paths
+                    .filter(Files::isRegularFile)
+                    .filter(path -> path.toString().endsWith(".java"))
+                    .forEach(path -> {
+                        try {
+                            if(isOverLoading(path.toString())){
+                                overLoadingFiles.add(path.getFileName().toString());
+                            }
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
+                    });
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        for (String overLoadingFile : overLoadingFiles) {
+            System.out.print(overLoadingFile + ",");
+        }
+        System.out.println();
+        System.out.println("overLoadingFiles count = " + overLoadingFiles.size());
+    }
 
     private static final String MAIN_PATTERN = "public static void main(String[] args)";
     private static final String METHOD_PATTERN = "(\\s*(public|private|protected)?\\s+)?(static\\s+)?\\w+\\s+\\w+\\s*\\(.*\\)\\s*\\{?"; //public void 메서드명 ()
