@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
 
-public class CheckOverLoading {
+public class CountNotMainMethod {
 
     public static void main(String[] args) {
 
