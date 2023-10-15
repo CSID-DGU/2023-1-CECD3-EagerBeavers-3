@@ -11,6 +11,8 @@ import java.util.stream.Stream;
 public class CheckOverLoading {
 
     public static void main(String[] args) {
+
+
         String directoryPath = "/Users/gilga-eun/Desktop/test";
         List<String> overLoadingFiles = new ArrayList<>();
         try (Stream<Path> paths = Files.walk(Path.of(directoryPath))) {
@@ -38,9 +40,7 @@ public class CheckOverLoading {
     }
 
     private static final String MAIN_PATTERN = "public static void main(String[] args)";
-    private static final String METHOD_PATTERN = "(\\s*(public|private|protected)?\\s+)?(static\\s+)?\\w+\\s+\\w+\\s*\\(.*\\)\\s*\\{?"; //public void 메서드명 ()
-    private static final String METHOD_PATTERN_GENERIC = "(\\s*(public|private|protected)?\\s+)?(static\\s+)?<\\w+>\\s+void\\s+\\w+\\(.*\\)\\s*\\{?";
-    private static final String METHOD_PATTERN_ARRAY = "(\\s*(public|private|protected)?\\s+)?(static\\s+)?\\w+\\s+\\w+\\(\\w+\\s+\\w+\\)";
+    private static final String PATTERN = "^\\s*(\\w*\\s)?(\\w*\\s)?(((\\w*\\<\\w*(\\[\\])*\\>(\\[\\])*)|(\\w*(\\[\\])*))\\s*)?(\\w*\\s)?\\s*\\w*[(](\\s?\\w*(\\[\\])*\\s\\w*,?)*[)]\\s?\\{?$";
 
     public static boolean isOverLoading(String path) throws IOException {
         List<String> methodNames = new ArrayList<>();
@@ -50,7 +50,7 @@ public class CheckOverLoading {
                 continue;
             }
 
-            if (line.matches(METHOD_PATTERN) || line.matches(METHOD_PATTERN_GENERIC) || line.matches(METHOD_PATTERN_ARRAY)) {
+            if (line.matches(PATTERN)) {
                 int bracketIndex = line.indexOf("(");
                 int methodIndex = 0;
                 for (int i = bracketIndex; i > 0; i--) {
