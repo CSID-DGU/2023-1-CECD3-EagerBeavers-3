@@ -1,0 +1,16 @@
+digraph "&lt;operators&gt;.assignmentModulo" {  
+"228" [label = <(METHOD,&lt;operators&gt;.assignmentModulo)> ]
+"229" [label = <(PARAM,p1)> ]
+"230" [label = <(PARAM,p2)> ]
+"231" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"232" [label = <(METHOD_RETURN,ANY)> ]
+  "228" -> "229"  [ label = "AST: "] 
+  "228" -> "231"  [ label = "AST: "] 
+  "228" -> "230"  [ label = "AST: "] 
+  "228" -> "232"  [ label = "AST: "] 
+  "228" -> "232"  [ label = "CFG: "] 
+  "229" -> "232"  [ label = "DDG: p1"] 
+  "230" -> "232"  [ label = "DDG: p2"] 
+  "228" -> "229"  [ label = "DDG: "] 
+  "228" -> "230"  [ label = "DDG: "] 
+}

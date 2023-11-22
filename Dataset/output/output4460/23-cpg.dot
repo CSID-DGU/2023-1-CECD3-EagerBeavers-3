@@ -1,0 +1,16 @@
+digraph "min" {  
+"718" [label = <(METHOD,min)> ]
+"719" [label = <(PARAM,p1)> ]
+"720" [label = <(PARAM,p2)> ]
+"721" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"722" [label = <(METHOD_RETURN,ANY)> ]
+  "718" -> "719"  [ label = "AST: "] 
+  "718" -> "721"  [ label = "AST: "] 
+  "718" -> "720"  [ label = "AST: "] 
+  "718" -> "722"  [ label = "AST: "] 
+  "718" -> "722"  [ label = "CFG: "] 
+  "719" -> "722"  [ label = "DDG: p1"] 
+  "720" -> "722"  [ label = "DDG: p2"] 
+  "718" -> "719"  [ label = "DDG: "] 
+  "718" -> "720"  [ label = "DDG: "] 
+}

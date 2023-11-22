@@ -1,0 +1,16 @@
+digraph "totalMemory" {  
+"928" [label = <(METHOD,totalMemory)> ]
+"929" [label = <(PARAM,p0)> ]
+"930" [label = <(PARAM,p1)> ]
+"931" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"932" [label = <(METHOD_RETURN,ANY)> ]
+  "928" -> "929"  [ label = "AST: "] 
+  "928" -> "930"  [ label = "AST: "] 
+  "928" -> "931"  [ label = "AST: "] 
+  "928" -> "932"  [ label = "AST: "] 
+  "928" -> "932"  [ label = "CFG: "] 
+  "929" -> "932"  [ label = "DDG: p0"] 
+  "930" -> "932"  [ label = "DDG: p1"] 
+  "928" -> "929"  [ label = "DDG: "] 
+  "928" -> "930"  [ label = "DDG: "] 
+}

@@ -1,0 +1,12 @@
+digraph "currentTimeMillis" {  
+"493" [label = <(METHOD,currentTimeMillis)> ]
+"494" [label = <(PARAM,p1)> ]
+"495" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"496" [label = <(METHOD_RETURN,ANY)> ]
+  "493" -> "494"  [ label = "AST: "] 
+  "493" -> "495"  [ label = "AST: "] 
+  "493" -> "496"  [ label = "AST: "] 
+  "493" -> "496"  [ label = "CFG: "] 
+  "494" -> "496"  [ label = "DDG: p1"] 
+  "493" -> "494"  [ label = "DDG: "] 
+}

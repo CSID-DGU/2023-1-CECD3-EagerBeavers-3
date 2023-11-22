@@ -1,0 +1,16 @@
+digraph "totalMemory" {  
+"598" [label = <(METHOD,totalMemory)> ]
+"599" [label = <(PARAM,p0)> ]
+"600" [label = <(PARAM,p1)> ]
+"601" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"602" [label = <(METHOD_RETURN,ANY)> ]
+  "598" -> "599"  [ label = "AST: "] 
+  "598" -> "600"  [ label = "AST: "] 
+  "598" -> "601"  [ label = "AST: "] 
+  "598" -> "602"  [ label = "AST: "] 
+  "598" -> "602"  [ label = "CFG: "] 
+  "599" -> "602"  [ label = "DDG: p0"] 
+  "600" -> "602"  [ label = "DDG: p1"] 
+  "598" -> "599"  [ label = "DDG: "] 
+  "598" -> "600"  [ label = "DDG: "] 
+}

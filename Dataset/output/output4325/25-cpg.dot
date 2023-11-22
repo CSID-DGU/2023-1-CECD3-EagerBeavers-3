@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.logicalShiftRight" {  
+"621" [label = <(METHOD,&lt;operator&gt;.logicalShiftRight)> ]
+"622" [label = <(PARAM,p1)> ]
+"623" [label = <(PARAM,p2)> ]
+"624" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"625" [label = <(METHOD_RETURN,ANY)> ]
+  "621" -> "622"  [ label = "AST: "] 
+  "621" -> "624"  [ label = "AST: "] 
+  "621" -> "623"  [ label = "AST: "] 
+  "621" -> "625"  [ label = "AST: "] 
+  "621" -> "625"  [ label = "CFG: "] 
+  "622" -> "625"  [ label = "DDG: p1"] 
+  "623" -> "625"  [ label = "DDG: p2"] 
+  "621" -> "622"  [ label = "DDG: "] 
+  "621" -> "623"  [ label = "DDG: "] 
+}

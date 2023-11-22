@@ -1,0 +1,16 @@
+digraph "pollFirst" {  
+"791" [label = <(METHOD,pollFirst)> ]
+"792" [label = <(PARAM,p0)> ]
+"793" [label = <(PARAM,p1)> ]
+"794" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"795" [label = <(METHOD_RETURN,ANY)> ]
+  "791" -> "792"  [ label = "AST: "] 
+  "791" -> "793"  [ label = "AST: "] 
+  "791" -> "794"  [ label = "AST: "] 
+  "791" -> "795"  [ label = "AST: "] 
+  "791" -> "795"  [ label = "CFG: "] 
+  "792" -> "795"  [ label = "DDG: p0"] 
+  "793" -> "795"  [ label = "DDG: p1"] 
+  "791" -> "792"  [ label = "DDG: "] 
+  "791" -> "793"  [ label = "DDG: "] 
+}

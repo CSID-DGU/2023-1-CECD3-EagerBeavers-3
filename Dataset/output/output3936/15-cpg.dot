@@ -1,0 +1,12 @@
+digraph "&lt;init&gt;" {  
+"783" [label = <(METHOD,&lt;init&gt;)> ]
+"784" [label = <(PARAM,p1)> ]
+"785" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"786" [label = <(METHOD_RETURN,ANY)> ]
+  "783" -> "784"  [ label = "AST: "] 
+  "783" -> "785"  [ label = "AST: "] 
+  "783" -> "786"  [ label = "AST: "] 
+  "783" -> "786"  [ label = "CFG: "] 
+  "784" -> "786"  [ label = "DDG: p1"] 
+  "783" -> "784"  [ label = "DDG: "] 
+}

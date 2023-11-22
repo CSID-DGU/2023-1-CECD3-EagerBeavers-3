@@ -1,0 +1,16 @@
+digraph "pow" {  
+"418" [label = <(METHOD,pow)> ]
+"419" [label = <(PARAM,p1)> ]
+"420" [label = <(PARAM,p2)> ]
+"421" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"422" [label = <(METHOD_RETURN,ANY)> ]
+  "418" -> "419"  [ label = "AST: "] 
+  "418" -> "421"  [ label = "AST: "] 
+  "418" -> "420"  [ label = "AST: "] 
+  "418" -> "422"  [ label = "AST: "] 
+  "418" -> "422"  [ label = "CFG: "] 
+  "419" -> "422"  [ label = "DDG: p1"] 
+  "420" -> "422"  [ label = "DDG: p2"] 
+  "418" -> "419"  [ label = "DDG: "] 
+  "418" -> "420"  [ label = "DDG: "] 
+}

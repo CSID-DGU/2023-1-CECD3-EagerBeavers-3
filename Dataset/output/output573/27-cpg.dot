@@ -1,0 +1,16 @@
+digraph "sqrt" {  
+"1080" [label = <(METHOD,sqrt)> ]
+"1081" [label = <(PARAM,p1)> ]
+"1082" [label = <(PARAM,p2)> ]
+"1083" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"1084" [label = <(METHOD_RETURN,ANY)> ]
+  "1080" -> "1081"  [ label = "AST: "] 
+  "1080" -> "1083"  [ label = "AST: "] 
+  "1080" -> "1082"  [ label = "AST: "] 
+  "1080" -> "1084"  [ label = "AST: "] 
+  "1080" -> "1084"  [ label = "CFG: "] 
+  "1081" -> "1084"  [ label = "DDG: p1"] 
+  "1082" -> "1084"  [ label = "DDG: p2"] 
+  "1080" -> "1081"  [ label = "DDG: "] 
+  "1080" -> "1082"  [ label = "DDG: "] 
+}

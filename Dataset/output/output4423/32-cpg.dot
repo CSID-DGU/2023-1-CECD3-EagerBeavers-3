@@ -1,0 +1,16 @@
+digraph "max" {  
+"848" [label = <(METHOD,max)> ]
+"849" [label = <(PARAM,p1)> ]
+"850" [label = <(PARAM,p2)> ]
+"851" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"852" [label = <(METHOD_RETURN,ANY)> ]
+  "848" -> "849"  [ label = "AST: "] 
+  "848" -> "851"  [ label = "AST: "] 
+  "848" -> "850"  [ label = "AST: "] 
+  "848" -> "852"  [ label = "AST: "] 
+  "848" -> "852"  [ label = "CFG: "] 
+  "849" -> "852"  [ label = "DDG: p1"] 
+  "850" -> "852"  [ label = "DDG: p2"] 
+  "848" -> "849"  [ label = "DDG: "] 
+  "848" -> "850"  [ label = "DDG: "] 
+}

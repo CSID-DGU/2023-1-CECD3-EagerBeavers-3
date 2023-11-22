@@ -1,0 +1,12 @@
+digraph "parseInt" {  
+"606" [label = <(METHOD,parseInt)> ]
+"607" [label = <(PARAM,p1)> ]
+"608" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"609" [label = <(METHOD_RETURN,ANY)> ]
+  "606" -> "607"  [ label = "AST: "] 
+  "606" -> "608"  [ label = "AST: "] 
+  "606" -> "609"  [ label = "AST: "] 
+  "606" -> "609"  [ label = "CFG: "] 
+  "607" -> "609"  [ label = "DDG: p1"] 
+  "606" -> "607"  [ label = "DDG: "] 
+}

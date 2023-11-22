@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.logicalAnd" {  
+"870" [label = <(METHOD,&lt;operator&gt;.logicalAnd)> ]
+"871" [label = <(PARAM,p1)> ]
+"872" [label = <(PARAM,p2)> ]
+"873" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"874" [label = <(METHOD_RETURN,ANY)> ]
+  "870" -> "871"  [ label = "AST: "] 
+  "870" -> "873"  [ label = "AST: "] 
+  "870" -> "872"  [ label = "AST: "] 
+  "870" -> "874"  [ label = "AST: "] 
+  "870" -> "874"  [ label = "CFG: "] 
+  "871" -> "874"  [ label = "DDG: p1"] 
+  "872" -> "874"  [ label = "DDG: p2"] 
+  "870" -> "871"  [ label = "DDG: "] 
+  "870" -> "872"  [ label = "DDG: "] 
+}

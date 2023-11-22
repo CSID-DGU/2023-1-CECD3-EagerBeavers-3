@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.postIncrement" {  
+"401" [label = <(METHOD,&lt;operator&gt;.postIncrement)> ]
+"402" [label = <(PARAM,p1)> ]
+"403" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"404" [label = <(METHOD_RETURN,ANY)> ]
+  "401" -> "402"  [ label = "AST: "] 
+  "401" -> "403"  [ label = "AST: "] 
+  "401" -> "404"  [ label = "AST: "] 
+  "401" -> "404"  [ label = "CFG: "] 
+  "402" -> "404"  [ label = "DDG: p1"] 
+  "401" -> "402"  [ label = "DDG: "] 
+}

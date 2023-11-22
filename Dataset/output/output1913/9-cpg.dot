@@ -1,0 +1,16 @@
+digraph "parseInt" {  
+"312" [label = <(METHOD,parseInt)> ]
+"313" [label = <(PARAM,p1)> ]
+"314" [label = <(PARAM,p2)> ]
+"315" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"316" [label = <(METHOD_RETURN,ANY)> ]
+  "312" -> "313"  [ label = "AST: "] 
+  "312" -> "315"  [ label = "AST: "] 
+  "312" -> "314"  [ label = "AST: "] 
+  "312" -> "316"  [ label = "AST: "] 
+  "312" -> "316"  [ label = "CFG: "] 
+  "313" -> "316"  [ label = "DDG: p1"] 
+  "314" -> "316"  [ label = "DDG: p2"] 
+  "312" -> "313"  [ label = "DDG: "] 
+  "312" -> "314"  [ label = "DDG: "] 
+}

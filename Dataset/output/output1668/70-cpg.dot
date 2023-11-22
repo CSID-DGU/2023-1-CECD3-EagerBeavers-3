@@ -1,0 +1,16 @@
+digraph "nextToken" {  
+"940" [label = <(METHOD,nextToken)> ]
+"941" [label = <(PARAM,p0)> ]
+"942" [label = <(PARAM,p1)> ]
+"943" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"944" [label = <(METHOD_RETURN,ANY)> ]
+  "940" -> "941"  [ label = "AST: "] 
+  "940" -> "942"  [ label = "AST: "] 
+  "940" -> "943"  [ label = "AST: "] 
+  "940" -> "944"  [ label = "AST: "] 
+  "940" -> "944"  [ label = "CFG: "] 
+  "941" -> "944"  [ label = "DDG: p0"] 
+  "942" -> "944"  [ label = "DDG: p1"] 
+  "940" -> "941"  [ label = "DDG: "] 
+  "940" -> "942"  [ label = "DDG: "] 
+}

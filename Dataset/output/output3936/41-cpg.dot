@@ -1,0 +1,16 @@
+digraph "isEmpty" {  
+"918" [label = <(METHOD,isEmpty)> ]
+"919" [label = <(PARAM,p0)> ]
+"920" [label = <(PARAM,p1)> ]
+"921" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"922" [label = <(METHOD_RETURN,ANY)> ]
+  "918" -> "919"  [ label = "AST: "] 
+  "918" -> "920"  [ label = "AST: "] 
+  "918" -> "921"  [ label = "AST: "] 
+  "918" -> "922"  [ label = "AST: "] 
+  "918" -> "922"  [ label = "CFG: "] 
+  "919" -> "922"  [ label = "DDG: p0"] 
+  "920" -> "922"  [ label = "DDG: p1"] 
+  "918" -> "919"  [ label = "DDG: "] 
+  "918" -> "920"  [ label = "DDG: "] 
+}

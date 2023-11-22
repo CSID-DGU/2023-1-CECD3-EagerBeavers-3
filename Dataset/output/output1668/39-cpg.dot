@@ -1,0 +1,16 @@
+digraph "sort" {  
+"767" [label = <(METHOD,sort)> ]
+"768" [label = <(PARAM,p1)> ]
+"769" [label = <(PARAM,p2)> ]
+"770" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"771" [label = <(METHOD_RETURN,ANY)> ]
+  "767" -> "768"  [ label = "AST: "] 
+  "767" -> "770"  [ label = "AST: "] 
+  "767" -> "769"  [ label = "AST: "] 
+  "767" -> "771"  [ label = "AST: "] 
+  "767" -> "771"  [ label = "CFG: "] 
+  "768" -> "771"  [ label = "DDG: p1"] 
+  "769" -> "771"  [ label = "DDG: p2"] 
+  "767" -> "768"  [ label = "DDG: "] 
+  "767" -> "769"  [ label = "DDG: "] 
+}

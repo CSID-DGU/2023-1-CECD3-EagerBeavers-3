@@ -1,0 +1,16 @@
+digraph "hasMoreTokens" {  
+"275" [label = <(METHOD,hasMoreTokens)> ]
+"276" [label = <(PARAM,p0)> ]
+"277" [label = <(PARAM,p1)> ]
+"278" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"279" [label = <(METHOD_RETURN,ANY)> ]
+  "275" -> "276"  [ label = "AST: "] 
+  "275" -> "277"  [ label = "AST: "] 
+  "275" -> "278"  [ label = "AST: "] 
+  "275" -> "279"  [ label = "AST: "] 
+  "275" -> "279"  [ label = "CFG: "] 
+  "276" -> "279"  [ label = "DDG: p0"] 
+  "277" -> "279"  [ label = "DDG: p1"] 
+  "275" -> "276"  [ label = "DDG: "] 
+  "275" -> "277"  [ label = "DDG: "] 
+}

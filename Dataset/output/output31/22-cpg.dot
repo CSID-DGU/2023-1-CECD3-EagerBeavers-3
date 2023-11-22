@@ -1,0 +1,12 @@
+digraph "&lt;init&gt;" {  
+"400" [label = <(METHOD,&lt;init&gt;)> ]
+"401" [label = <(PARAM,p1)> ]
+"402" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"403" [label = <(METHOD_RETURN,ANY)> ]
+  "400" -> "401"  [ label = "AST: "] 
+  "400" -> "402"  [ label = "AST: "] 
+  "400" -> "403"  [ label = "AST: "] 
+  "400" -> "403"  [ label = "CFG: "] 
+  "401" -> "403"  [ label = "DDG: p1"] 
+  "400" -> "401"  [ label = "DDG: "] 
+}

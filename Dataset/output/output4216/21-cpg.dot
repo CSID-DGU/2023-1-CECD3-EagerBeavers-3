@@ -1,0 +1,16 @@
+digraph "next" {  
+"516" [label = <(METHOD,next)> ]
+"517" [label = <(PARAM,p0)> ]
+"518" [label = <(PARAM,p1)> ]
+"519" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"520" [label = <(METHOD_RETURN,ANY)> ]
+  "516" -> "517"  [ label = "AST: "] 
+  "516" -> "518"  [ label = "AST: "] 
+  "516" -> "519"  [ label = "AST: "] 
+  "516" -> "520"  [ label = "AST: "] 
+  "516" -> "520"  [ label = "CFG: "] 
+  "517" -> "520"  [ label = "DDG: p0"] 
+  "518" -> "520"  [ label = "DDG: p1"] 
+  "516" -> "517"  [ label = "DDG: "] 
+  "516" -> "518"  [ label = "DDG: "] 
+}

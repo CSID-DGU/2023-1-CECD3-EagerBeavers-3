@@ -1,0 +1,16 @@
+digraph "exit" {  
+"534" [label = <(METHOD,exit)> ]
+"535" [label = <(PARAM,p1)> ]
+"536" [label = <(PARAM,p2)> ]
+"537" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"538" [label = <(METHOD_RETURN,ANY)> ]
+  "534" -> "535"  [ label = "AST: "] 
+  "534" -> "537"  [ label = "AST: "] 
+  "534" -> "536"  [ label = "AST: "] 
+  "534" -> "538"  [ label = "AST: "] 
+  "534" -> "538"  [ label = "CFG: "] 
+  "535" -> "538"  [ label = "DDG: p1"] 
+  "536" -> "538"  [ label = "DDG: p2"] 
+  "534" -> "535"  [ label = "DDG: "] 
+  "534" -> "536"  [ label = "DDG: "] 
+}

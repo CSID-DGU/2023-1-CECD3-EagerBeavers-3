@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.and" {  
+"828" [label = <(METHOD,&lt;operator&gt;.and)> ]
+"829" [label = <(PARAM,p1)> ]
+"830" [label = <(PARAM,p2)> ]
+"831" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"832" [label = <(METHOD_RETURN,ANY)> ]
+  "828" -> "829"  [ label = "AST: "] 
+  "828" -> "831"  [ label = "AST: "] 
+  "828" -> "830"  [ label = "AST: "] 
+  "828" -> "832"  [ label = "AST: "] 
+  "828" -> "832"  [ label = "CFG: "] 
+  "829" -> "832"  [ label = "DDG: p1"] 
+  "830" -> "832"  [ label = "DDG: p2"] 
+  "828" -> "829"  [ label = "DDG: "] 
+  "828" -> "830"  [ label = "DDG: "] 
+}

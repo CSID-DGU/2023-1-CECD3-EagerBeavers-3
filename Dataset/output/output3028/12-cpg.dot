@@ -1,0 +1,16 @@
+digraph "poll" {  
+"222" [label = <(METHOD,poll)> ]
+"223" [label = <(PARAM,p0)> ]
+"224" [label = <(PARAM,p1)> ]
+"225" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"226" [label = <(METHOD_RETURN,ANY)> ]
+  "222" -> "223"  [ label = "AST: "] 
+  "222" -> "224"  [ label = "AST: "] 
+  "222" -> "225"  [ label = "AST: "] 
+  "222" -> "226"  [ label = "AST: "] 
+  "222" -> "226"  [ label = "CFG: "] 
+  "223" -> "226"  [ label = "DDG: p0"] 
+  "224" -> "226"  [ label = "DDG: p1"] 
+  "222" -> "223"  [ label = "DDG: "] 
+  "222" -> "224"  [ label = "DDG: "] 
+}

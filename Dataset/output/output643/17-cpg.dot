@@ -1,0 +1,16 @@
+digraph "ready" {  
+"258" [label = <(METHOD,ready)> ]
+"259" [label = <(PARAM,p0)> ]
+"260" [label = <(PARAM,p1)> ]
+"261" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"262" [label = <(METHOD_RETURN,ANY)> ]
+  "258" -> "259"  [ label = "AST: "] 
+  "258" -> "260"  [ label = "AST: "] 
+  "258" -> "261"  [ label = "AST: "] 
+  "258" -> "262"  [ label = "AST: "] 
+  "258" -> "262"  [ label = "CFG: "] 
+  "259" -> "262"  [ label = "DDG: p0"] 
+  "260" -> "262"  [ label = "DDG: p1"] 
+  "258" -> "259"  [ label = "DDG: "] 
+  "258" -> "260"  [ label = "DDG: "] 
+}

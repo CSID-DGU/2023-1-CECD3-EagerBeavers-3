@@ -1,0 +1,12 @@
+digraph "ceil" {  
+"462" [label = <(METHOD,ceil)> ]
+"463" [label = <(PARAM,p1)> ]
+"464" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"465" [label = <(METHOD_RETURN,ANY)> ]
+  "462" -> "463"  [ label = "AST: "] 
+  "462" -> "464"  [ label = "AST: "] 
+  "462" -> "465"  [ label = "AST: "] 
+  "462" -> "465"  [ label = "CFG: "] 
+  "463" -> "465"  [ label = "DDG: p1"] 
+  "462" -> "463"  [ label = "DDG: "] 
+}

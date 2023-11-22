@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.assignmentMinus" {  
+"856" [label = <(METHOD,&lt;operator&gt;.assignmentMinus)> ]
+"857" [label = <(PARAM,p1)> ]
+"858" [label = <(PARAM,p2)> ]
+"859" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"860" [label = <(METHOD_RETURN,ANY)> ]
+  "856" -> "857"  [ label = "AST: "] 
+  "856" -> "859"  [ label = "AST: "] 
+  "856" -> "858"  [ label = "AST: "] 
+  "856" -> "860"  [ label = "AST: "] 
+  "856" -> "860"  [ label = "CFG: "] 
+  "857" -> "860"  [ label = "DDG: p1"] 
+  "858" -> "860"  [ label = "DDG: p2"] 
+  "856" -> "857"  [ label = "DDG: "] 
+  "856" -> "858"  [ label = "DDG: "] 
+}

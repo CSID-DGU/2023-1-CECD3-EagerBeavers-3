@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.logicalNot" {  
+"645" [label = <(METHOD,&lt;operator&gt;.logicalNot)> ]
+"646" [label = <(PARAM,p1)> ]
+"647" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"648" [label = <(METHOD_RETURN,ANY)> ]
+  "645" -> "646"  [ label = "AST: "] 
+  "645" -> "647"  [ label = "AST: "] 
+  "645" -> "648"  [ label = "AST: "] 
+  "645" -> "648"  [ label = "CFG: "] 
+  "646" -> "648"  [ label = "DDG: p1"] 
+  "645" -> "646"  [ label = "DDG: "] 
+}

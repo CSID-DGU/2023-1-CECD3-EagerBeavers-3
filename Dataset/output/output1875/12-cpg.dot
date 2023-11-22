@@ -1,0 +1,16 @@
+digraph "intValue" {  
+"291" [label = <(METHOD,intValue)> ]
+"292" [label = <(PARAM,p0)> ]
+"293" [label = <(PARAM,p1)> ]
+"294" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"295" [label = <(METHOD_RETURN,ANY)> ]
+  "291" -> "292"  [ label = "AST: "] 
+  "291" -> "293"  [ label = "AST: "] 
+  "291" -> "294"  [ label = "AST: "] 
+  "291" -> "295"  [ label = "AST: "] 
+  "291" -> "295"  [ label = "CFG: "] 
+  "292" -> "295"  [ label = "DDG: p0"] 
+  "293" -> "295"  [ label = "DDG: p1"] 
+  "291" -> "292"  [ label = "DDG: "] 
+  "291" -> "293"  [ label = "DDG: "] 
+}
