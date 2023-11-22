@@ -1,8 +1,0 @@
-digraph "&lt;operator&gt;.arrayInitializer" {  
-"226" [label = <(METHOD,&lt;operator&gt;.arrayInitializer)> ]
-"227" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
-"228" [label = <(METHOD_RETURN,ANY)> ]
-  "226" -> "227"  [ label = "AST: "] 
-  "226" -> "228"  [ label = "AST: "] 
-  "226" -> "228"  [ label = "CFG: "] 
-}
