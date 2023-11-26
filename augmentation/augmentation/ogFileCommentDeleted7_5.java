@@ -1,0 +1,57 @@
+import java.io.*;
+import java.util.*;
+
+import javax.lang.model.util.ElementScanner6;
+public class codef
+{
+    public static void main(String ar[]) throws IOException
+    {
+
+        int n=Integer.parseInt(nk.nextToken());
+        int k=Integer.parseInt(nk.nextToken());
+        String st[]=br.readLine().split(" ");
+        
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer nk=new StringTokenizer(br.readLine());
+
+        
+        int ans[]=new int[n];
+        int a[]=new int[n];
+        for(int i=0;i<n;i++)
+            ans[i]=Integer.parseInt(st[i]);  
+
+        for(int i=1;i<n;i++)
+            a[i]=ans[i]-ans[i-1];
+        a[0]=-1;
+
+        for(int i=1;i<n;i++)
+            a[i]=ans[i]-ans[i-1];
+
+        int count=0,sum=0;
+        Arrays.sort(a);
+
+        for(int i=1;i<n;i++)
+            a[i]=ans[i]-ans[i-1];
+        
+        
+        for(int i=0;i<n;i++)
+            if(a[i]<0)
+                count++;
+            else
+                sum=sum+a[i];
+  
+        int i=n-1;
+        k=k-count;
+  
+        while(k>0 && i>=0)
+        {
+            if(a[i]>-1)
+            {
+                sum=sum-a[i];
+                k--;
+            }
+            i--;
+        }
+        System.out.println(sum);
+    }
+}
