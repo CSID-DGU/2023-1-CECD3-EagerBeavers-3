@@ -63,9 +63,9 @@ img src = "<img width="210" alt="image" src="https://github.com/CSID-DGU/2023-1-
 " width="10%" height="10%">
 |이름|학과|Github profile|
 |----|---|---|
-|[길가은]|수학과|(https://github.com/rlfrkdms1) [![](https://img.shields.io/badge/Github-Dan2dani-blue?style=flat-square&logo=Github)](https://github.com/rlfrkdms1)|
-|[윤지성]|컴퓨터공학전공|(https://github.com/green-yoon87) [![](https://img.shields.io/badge/Github-Dan2dani-blue?style=flat-square&logo=Github)](https://github.com/green-yoon87)|
-|[장지담]|컴퓨터공학전공|(https://github.com/jd99iam) [![](https://img.shields.io/badge/Github-Dan2dani-blue?style=flat-square&logo=Github)](https://github.com/jd99iam)|
-|[황지민]|컴퓨터공학전공|(https://github.com/SCO-JM) [![](https://img.shields.io/badge/Github-Dan2dani-blue?style=flat-square&logo=Github)](https://github.com/SCO-JM)|
+|[길가은]|수학과|(https://github.com/rlfrkdms1) [![](https://img.shields.io/badge/Github-rlfrkdms1-blue?style=flat-square&logo=Github)](https://github.com/rlfrkdms1)|
+|[윤지성]|컴퓨터공학전공|(https://github.com/green-yoon87) [![](https://img.shields.io/badge/Github-green-yoon87-blue?style=flat-square&logo=Github)](https://github.com/green-yoon87)|
+|[장지담]|컴퓨터공학전공|(https://github.com/jd99iam) [![](https://img.shields.io/badge/Github-jd99iam-blue?style=flat-square&logo=Github)](https://github.com/jd99iam)|
+|[황지민]|컴퓨터공학전공|(https://github.com/SCO-JM) [![](https://img.shields.io/badge/Github-SCO-JM-blue?style=flat-square&logo=Github)](https://github.com/SCO-JM)|
 
 
