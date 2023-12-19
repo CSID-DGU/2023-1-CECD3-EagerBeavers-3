@@ -17,6 +17,7 @@
 
 
 ### 처리 흐름도
+<img alt="처리흐름도" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/83744709/28d3900a-a053-4d40-af04-638ccfd7d7e7">
 
 
 ### 주요 기능
