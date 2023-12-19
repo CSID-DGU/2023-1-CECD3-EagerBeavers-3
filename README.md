@@ -55,5 +55,16 @@
 ## 팀원
 
 #### [Eager Beavers🦦]팀 
+img src = "<img width="210" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/f8fed6cf-1d4e-445a-b56c-29a0098feb44">
+" width="10%" height="10%"><img src = "<img width="211" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/74296b2d-5b51-496f-aa3d-be4ac2cef084">
+" width="8%" height="8%"><img src = "<img width="145" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/658a6416-88f4-418e-90f9-b9a0aa12c10e">
+" width="10%" height="10%"><img src = <img width="211" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/eac3a812-f673-413b-b7a8-b7c73f850673">
+" width="10%" height="10%">
+|이름|학과|Github profile|
+|----|---|---|
+|[길가은]|수학과|(https://github.com/rlfrkdms1) [![](https://img.shields.io/badge/Github-Dan2dani-blue?style=flat-square&logo=Github)](https://github.com/rlfrkdms1)|
+|[윤지성]|컴퓨터공학전공|(https://github.com/green-yoon87) [![](https://img.shields.io/badge/Github-Dan2dani-blue?style=flat-square&logo=Github)](https://github.com/green-yoon87)|
+|[장지담]|컴퓨터공학전공|(https://github.com/jd99iam) [![](https://img.shields.io/badge/Github-Dan2dani-blue?style=flat-square&logo=Github)](https://github.com/jd99iam)|
+|[황지민]|컴퓨터공학전공|(https://github.com/SCO-JM) [![](https://img.shields.io/badge/Github-Dan2dani-blue?style=flat-square&logo=Github)](https://github.com/SCO-JM)|
 
 
