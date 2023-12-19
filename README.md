@@ -65,9 +65,9 @@
 <img src = <img width="211" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/eac3a812-f673-413b-b7a8-b7c73f850673"> | width="10%" height="10%">
 |이름|학과|Github profile|
 |----|---|---|
-|[길가은]|수학과| [![](https://img.shields.io/badge/Github-rlfrkdms1-blue?style=flat-square&logo=Github)](https://github.com/rlfrkdms1)|
-|[윤지성]|컴퓨터공학전공| [![](https://img.shields.io/badge/Github-green-yoon87-blue?style=flat-square&logo=Github)](https://github.com/green-yoon87)|
-|[장지담]|컴퓨터공학전공| [![](https://img.shields.io/badge/Github-jd99iam-blue?style=flat-square&logo=Github)](https://github.com/jd99iam)|
-|[황지민]|컴퓨터공학전공| [![](https://img.shields.io/badge/Github-SCO-JM-blue?style=flat-square&logo=Github)](https://github.com/SCO-JM)|
+|[길가은]|수학과| <a href="[링크주소](https://github.com/rlfrkdms1)"><img src="https://img.shields.io/badge/rlfrkdms1-컬러코드?style=flat-square&logo=아이콘이름&logoColor=white&link=링크주소"/></a>|
+|[윤지성]|컴퓨터공학전공| <a href="[링크주소](https://github.com/green-yoon87)"><img src="https://img.shields.io/badge/green-yoon87-컬러코드?style=flat-square&logo=아이콘이름&logoColor=white&link=링크주소"/></a>|
+|[장지담]|컴퓨터공학전공| <a href="[링크주소](https://github.com/jd99iam)"><img src="https://img.shields.io/badge/jd99iam-컬러코드?style=flat-square&logo=아이콘이름&logoColor=white&link=링크주소"/></a>|
+|[황지민]|컴퓨터공학전공| <a href="[링크주소](https://github.com/SCO-JM)"><img src="https://img.shields.io/badge/SCO-JM-컬러코드?style=flat-square&logo=아이콘이름&logoColor=white&link=링크주소"/></a>|
 
 
