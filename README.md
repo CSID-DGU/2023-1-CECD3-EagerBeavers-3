@@ -52,8 +52,6 @@
 - 협업도구: Google Drive, Git, Github
 - 문서화: Notion
 
-### 시스템 구성도
-
 
 ## 팀원
 
