@@ -48,15 +48,10 @@
 ## 팀원
 
 #### [Eager Beavers🦦]팀 
-<img width="210" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/f8fed6cf-1d4e-445a-b56c-29a0098feb44">
-<img width="211" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/74296b2d-5b51-496f-aa3d-be4ac2cef084">
-<img width="145" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/658a6416-88f4-418e-90f9-b9a0aa12c10e">
-<img width="211" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/eac3a812-f673-413b-b7a8-b7c73f850673">
+|길가은|윤지성|장지담|황지민|
+|:---:|:---:|:---:|:---:|
+|![](https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/f8fed6cf-1d4e-445a-b56c-29a0098feb44)|![](https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/74296b2d-5b51-496f-aa3d-be4ac2cef084)|![](https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/658a6416-88f4-418e-90f9-b9a0aa12c10e)|![](https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/eac3a812-f673-413b-b7a8-b7c73f850673)|
+|수학과|컴퓨터공학전공|컴퓨터공학전공|컴퓨터공학전공|
+|[rlfrkdms1](https://github.com/rlfrkdms1)|[green-yoon87](https://github.com/green-yoon87)|[jd99iam](https://github.com/jd99iam)|[SCO-JM](https://github.com/SCO-JM)|
 
-|이름|학과|Github profile|
-|----|---|---|
-|길가은|수학과| <img src="https://img.shields.io/badge/rlfrkdms1-009874?style=flat-square&logo=Github&logoColor=white&link=https://github.com/rlfrkdms1"/></a>|
-|윤지성|컴퓨터공학전공| <img src="https://img.shields.io/badge/green-yoon87-009874?style=flat-square&logo=Github&logoColor=white&link=https://github.com/green-yoon87"/></a>|
-|장지담|컴퓨터공학전공| <img src="https://img.shields.io/badge/jd99iam-009874?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jd99iam"/></a>|
-|황지민|컴퓨터공학전공| <img src="https://img.shields.io/badge/SCO-JM-009874?style=flat-square&logo=Github&logoColor=white&link=https://github.com/SCO-JM"/></a>|
 
