@@ -45,9 +45,9 @@
 - 문서화: Notion
 
 
-## 팀원
+## 팀 소개
+### Eager Beavers🦦🦦🦦🦦 
 
-#### [Eager Beavers🦦]팀 
 |길가은|윤지성|장지담|황지민|
 |:---:|:---:|:---:|:---:|
 |![](https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/f8fed6cf-1d4e-445a-b56c-29a0098feb44)|![](https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/74296b2d-5b51-496f-aa3d-be4ac2cef084)|![](https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/658a6416-88f4-418e-90f9-b9a0aa12c10e)|![](https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/eac3a812-f673-413b-b7a8-b7c73f850673)|
