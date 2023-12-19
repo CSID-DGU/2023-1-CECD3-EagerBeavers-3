@@ -26,7 +26,7 @@
 |                                              |                                                  |            
 | :------------------------------------------: | :----------------------------------------------: |
 | <img width="222" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/be60b724-eb0a-4688-8559-2a461e235e24">|   <img width="493" alt="image" src="https://github.com/CSID-DGU/2023-1-CECD3-EagerBeavers-3/assets/113659520/ad46bb5c-d222-4d6a-ac84-20d6577db00a">  | 
-|                 java 소스코드 입력                  |                   결과 출력                   |
+|                 java 소스코드 입력                  |                 시간복잡도 값 출력                 |
 
 
 ## 기술 스택
