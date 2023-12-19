@@ -38,19 +38,19 @@
 
 
 ## 기술 스택
+
+### 개발환경
 - 언어: Python 3.x
 - 딥러닝 라이브러리: Pytorch, PyTorch Geometric
 - 그래프 라이브러리: NetworkX
-- 데이터 전처리 및 분석: scikit-learn, pandas, NumPy
-- 기타: Matplotlib, random
+- 데이터 전처리 및 분석 라이브러리: scikit-learn, pandas, NumPy
+- 기타 라이브러리: Matplotlib, random
+- CPG 생성 프로그램: Joern
 
-### 개발환경 및 도구
-- Google Colab Pro
+### 개발 도구  
+- Google Colab Pro, VScode
 - 협업도구: Google Drive, Git, Github
 - 문서화: Notion
-
-### 사용한 오픈소스
-
 
 ### 시스템 구성도
 
