@@ -37,6 +37,11 @@
 
 
 ## 기술 스택
+- 언어: Python 3.x
+- 딥러닝 라이브러리: Pytorch, PyTorch Geometric
+- 그래프 라이브러리: NetworkX
+- 데이터 전처리 및 분석: scikit-learn, pandas, NumPy
+- 기타: Matplotlib, random
 
 ### 개발환경
 
